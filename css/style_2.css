@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    float: left;
+    margin-right: 20px;
+}
+
+.clearf:before,
+.clearf:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header {
+    background-color: #65a5fa;
+    float: left;
+    width: 10%;
+    height: 730px;
+}
+
+.header h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.content {
+    float: left;
+}
+
+.content > * {
+    margin: 25px 20px;
+}
+
+.basic-info .title,
+.contact .title,
+.capacity .title,
+.education .title,
+.projects .title {
+    margin-bottom: 20px;
+}
+
+.capacity .skills,
+.education .degree,
+.projects .item {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 16px;;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    float: left;
+    margin-right: 35px;
+}
+
+.clearf:before,
+.clearf:after,
+.education .degree:before,
+.education .degree:after,
+.projects .item:before,
+.projects .item:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header {
+    background-color: #858585;
+}
+
+.header h1 {
+    padding: 20px;
+    color: #fff;
+}
+
+.basic-info,
+.contact,
+.capacity,
+.education,
+.projects {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.basic-info .title,
+.basic-info .info,
+.contact .title,
+.contact .info,
+.capacity .title,
+.capacity .description,
+.education .title,
+.education .description,
+.projects .title,
+.projects .description {
+    float: left;
+}
+
+.basic-info .title,
+.contact .title,
+.capacity .title,
+.education .title,
+.projects .title {
+    width: 8%;
+    background-color: #ccc;
+    border-bottom: 1px solid #fff;
+}
+
+.basic-info .title h2,
+.contact .title h2,
+.capacity .title h2,
+.education .title h2,
+.projects .title h2 {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.basic-info .info,
+.contact .info,
+.capacity .description,
+.education .description,
+.projects .description {
+    position: absolute;
+    left: 180px;
+}
+
+.basic-info .info,
+.contact .info{
+    top: 45%;
+}
+
+.capacity .description,
+.education .description,
+.projects .description {
+    top: 35%;
+}
+
+.capacity .description .skills h3,
+.capacity .description .skills p,
+.capacity .description .mixed h3,
+.capacity .description .mixed p,
+.education .description .degree h4,
+.education .description .degree p,
+.projects .description .item h4,
+.projects .description .item p{
+    float: left;
+    margin-right: 5px;
+}
+
+.capacity .description .skills p {
+    position: absolute;
+}
+
+.capacity .description .skills p {
+    top: 5%;
+    left: 80px;
+}
+
